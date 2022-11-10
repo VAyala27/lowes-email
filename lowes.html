@@ -1,0 +1,1208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="supported-color-schemes" content="light dark" />
+    <title>HTML Email Template Boilerplate</title>
+    <style type="text/css">
+      @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+      table {
+        border-spacing: 0;
+      }
+
+      td {
+        padding: 0;
+      }
+
+      p {
+        font-size: 15px;
+      }
+
+      img {
+        border: 0;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .three-col-img {
+        width: 200px;
+        max-width: 200px;
+      }
+
+      .two-col-img {
+        width: 300px;
+        max-width: 300px;
+      }
+
+      @media screen and (max-width: 599.98px) {
+        .header {
+          background: #fff;
+        }
+        .header .padding {
+          padding: 10px 0px 0px 0px !important;
+        }
+        .two-col-img {
+          max-width: 100% !important;
+          width: 100% !important;
+        }
+        .two-columns .column .padding {
+          padding: 0px !important;
+        }
+
+        .three-columns .column .padding {
+          padding: 0px !important;
+        }
+
+        .three-col-img {
+          width: 100% !important;
+          max-width: 100% !important;
+        }
+      }
+      @media only screen and (max-width: 399.98px) {
+        .header {
+          background: #fff;
+        }
+        .header .padding {
+          padding: 10px 0px 0px 0px !important;
+        }
+
+        .two-columns .column .padding {
+          padding: 0px !important;
+        }
+
+        .three-columns .column .padding {
+          padding: 0px !important;
+        }
+
+        .three-col-img {
+          height: 110px !important;
+        }
+
+        .footer .content p a {
+          font-size: 10px !important;
+        }
+        .footer .content p {
+          font-size: 10px !important;
+        }
+      }
+
+      /* Custom Dark Mode Colors */
+
+      @media (prefers-color-scheme: dark) {
+        .sub-header .column p {
+          color: #383633 !important;
+        }
+      }
+    </style>
+
+    <!--[if (gte mso 9)|(IE)]>
+      <style type="text/css">
+        table{border-collapse: collapse; !important}
+      </style>
+    <![endif]-->
+  </head>
+  <body
+    style="margin: 0; padding: 0; min-width: 100%; background-color: #dde0e1"
+  >
+    <!--[if (gte mso 9)|(IE)]>
+      <style type="text/css">
+        body {
+          background-color: #dde0e1 !important;
+        }
+        body,
+        table,
+        td,
+        p,
+        a {
+          font-family: sans-serif, Arial, Helvitica !important;
+        }
+      </style>
+    <![endif]-->
+
+    <!-- Start of HTML EMAIL -->
+    <center
+      style="
+        width: 100%;
+        table-layout: fixed;
+        background-color: #dde0e1;
+        padding-bottom: 40px;
+      "
+    >
+      <div
+        style="
+          max-width: 600px;
+          background-color: #fafdfe;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        "
+      >
+        <!-- Preheader (remove) -->
+        <div
+          style="
+            font-size: 0px;
+            color: #fafdfe;
+            line-height: 1px;
+            mso-line-height-rule: exactly;
+            display: none;
+            max-width: 0px;
+            max-height: 0px;
+            opacity: 0;
+            overflow: hidden;
+            mso-hide: all;
+          "
+        >
+          This is our preheader text! SALE SALE 25% OFF!
+          <!-- Add Preheader Text (85-100 character) -->
+        </div>
+        <!-- End Preheader (remove) -->
+
+        <!--[if (gte mso 9)|(IE)]>
+         <table width="600" align="center" style="border-spacing: 0; color:#565656" role="presentation">
+            <tr>
+               <td style="padding: 0;">
+    <![endif]-->
+
+        <!-- Start of container -->
+        <table
+          align="center"
+          style="
+            border-spacing: 0;
+            color: #565656;
+            font-family: sans-serif, Arial, Helvitica !important;
+            background-color: #fafdfe;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            max-width: 600px;
+          "
+          role="presentation"
+        >
+          <!--Start of one-col header -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0; text-align: center">
+                    <!--[if (gte mso 9)|(IE)]>
+                            <table width="100%" style="border-spacing: 0;" role="presentation">
+                            <tr>
+                            <td width="600" valign="top" style="padding: 0;">
+                         <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td
+                          class="padding"
+                          style="padding: 20px 20px 10px 20px"
+                        >
+                          <table
+                            class="content"
+                            style="border-spacing: 0; text-align: center"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  style="width: 150px; max-width: 100%"
+                                  src="https://i.postimg.cc/2jTdw5gc/lowes-logo.png"
+                                  alt="logo"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                  </tr>
+                </table>
+                  <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col header -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0; text-align: right">
+                    <!--[if (gte mso 9)|(IE)]>
+                            <table width="100%" style="border-spacing: 0;" role="presentation">
+                            <tr>
+                            <td width="600" valign="top" style="padding: 0;">
+                         <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 10px 10px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  style="
+                                    width: 100px;
+                                    max-width: 100%;
+                                    float: right;
+                                  "
+                                  src="https://i.postimg.cc/CxnjSs5X/lowes-profile.png"
+                                  alt="profile"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                  </tr>
+                </table>
+                  <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0; text-align: center">
+                    <!--[if (gte mso 9)|(IE)]>
+                            <table width="100%" style="border-spacing: 0;" role="presentation">
+                            <tr>
+                            <td width="600" valign="top" style="padding: 0;">
+                         <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0; text-align: center"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  style="width: 600px; max-width: 100%"
+                                  src="https://i.postimg.cc/rwD9zLnh/lowes-divider.jpg"
+                                  alt="divider"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                  </tr>
+                </table>
+                  <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!-- Start of navbar -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td
+                    class="navbar"
+                    style="padding: 0; font-size: 0; text-align: center"
+                  >
+                    <!--[if (gte mso 9)|(IE)]>
+                              <table width="100%" style="border-spacing: 0;" role="presentation">
+                              <tr>
+                              <td width="600" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td
+                          class="padding"
+                          style="padding: 20px 20px 10px 20px"
+                        >
+                          <table
+                            class="content nav"
+                            style="
+                              border-spacing: 0;
+                              text-align: center;
+                              width: 540px;
+                              max-width: 90%;
+                            "
+                            role="presentation"
+                            align="center"
+                          >
+                            <tr>
+                              <td style="width: 20%; text-align: center">
+                                <a
+                                  style="
+                                    color: #012169;
+                                    text-decoration: none;
+                                    font-family: Helvetica, Arial, sans-serif;
+                                    font-size: 14px;
+                                    text-transform: uppercase;
+                                    font-weight: bold;
+                                  "
+                                  href="https://example.com"
+                                >
+                                  Bathroom
+                                </a>
+                              </td>
+                              <td style="width: 20%; text-align: center">
+                                <a
+                                  style="
+                                    color: #012169;
+                                    text-decoration: none;
+                                    font-family: Helvetica, Arial, sans-serif;
+                                    font-size: 14px;
+                                    text-transform: uppercase;
+                                    font-weight: bold;
+                                  "
+                                  href="https://example.com"
+                                >
+                                  Sale
+                                </a>
+                              </td>
+                              <td style="width: 20%; text-align: center">
+                                <a
+                                  style="
+                                    color: #012169;
+                                    text-decoration: none;
+                                    font-family: Helvetica, Arial, sans-serif;
+                                    font-size: 14px;
+                                    text-transform: uppercase;
+                                    font-weight: bold;
+                                  "
+                                  href="https://example.com"
+                                >
+                                  Daily Deal
+                                </a>
+                              </td>
+                              <td style="width: 20%; text-align: center">
+                                <a
+                                  style="
+                                    color: #012169;
+                                    text-decoration: none;
+                                    font-family: Helvetica, Arial, sans-serif;
+                                    font-size: 14px;
+                                    text-transform: uppercase;
+                                    font-weight: bold;
+                                  "
+                                  href="https://example.com"
+                                >
+                                  Appliances
+                                </a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                      </td>
+                    </tr>
+                  </table>
+                    <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- End of navbar -->
+
+          <!--Start of one-col -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0; text-align: center">
+                    <!--[if (gte mso 9)|(IE)]>
+                            <table width="100%" style="border-spacing: 0;" role="presentation">
+                            <tr>
+                            <td width="600" valign="top" style="padding: 0;">
+                         <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0; text-align: center"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  style="width: 600px; max-width: 100%"
+                                  src="https://i.postimg.cc/vBs7PxQj/lowes-hero.jpg"
+                                  alt="lowes-hero"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                  </tr>
+                </table>
+                  <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!-- start of two col -->
+          <tr>
+            <td style="padding: 0px">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td class="two-columns" style="padding: 0; font-size: 0">
+                    <!--[if (gte mso 9)|(IE)]>
+                                     <table width="100%" style="border-spacing: 0;" role="presentation">
+                                     <tr>
+                                     <td width="50%" valign="top" style="padding: 0;">
+                                  <![endif]-->
+
+                    <table
+                      class="column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        width: 50%;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding">
+                          <table
+                            class="content"
+                            style="border-spacing: 0"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <a href="https://example.com" target="_blank">
+                                  <img
+                                    class="two-col-img"
+                                    src="https://i.postimg.cc/Hx9wFWnL/lowes-item-1.jpg"
+                                    alt="lowes-item-1"
+                                    width="100%"
+                                    style="max-width: 100%"
+                                    border="0"
+                                  />
+                                </a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                                  </td><td width="50%" valign="top" style="padding: 0;">
+                                  <![endif]-->
+
+                    <table
+                      class="column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        width: 50%;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding">
+                          <table
+                            class="content"
+                            style="border-spacing: 0"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <a href="https://example.com" target="_blank">
+                                  <img
+                                    class="two-col-img"
+                                    src="https://i.postimg.cc/MHZ7wkfm/lowes-item-2.jpg"
+                                    alt="lowes-item-2"
+                                    width="100%"
+                                    style="max-width: 100%"
+                                    border="0"
+                                  />
+                                </a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                                     </td>
+                                     </tr>
+                                     </table>
+                                  <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- end of two col -->
+
+          <!-- start of two col -->
+          <tr>
+            <td style="padding: 0px">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td class="two-columns" style="padding: 0; font-size: 0">
+                    <!--[if (gte mso 9)|(IE)]>
+                                         <table width="100%" style="border-spacing: 0;" role="presentation">
+                                         <tr>
+                                         <td width="50%" valign="top" style="padding: 0;">
+                                      <![endif]-->
+
+                    <table
+                      class="column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        width: 50%;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding">
+                          <table
+                            class="content"
+                            style="border-spacing: 0"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <a href="https://example.com" target="_blank">
+                                  <img
+                                    class="two-col-img"
+                                    src="https://i.postimg.cc/zvdnXdnZ/lowes-item-3.jpg"
+                                    alt="lowes-item-3"
+                                    width="100%"
+                                    style="max-width: 100%"
+                                    border="0"
+                                  />
+                                </a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                                      </td><td width="50%" valign="top" style="padding: 0;">
+                                      <![endif]-->
+
+                    <table
+                      class="column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        width: 50%;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding">
+                          <table
+                            class="content"
+                            style="border-spacing: 0"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <a href="https://example.com" target="_blank">
+                                  <img
+                                    class="two-col-img"
+                                    src="https://i.postimg.cc/ncPvyPFq/lowes-item-4.jpg"
+                                    alt="lowes-item-4"
+                                    width="100%"
+                                    style="max-width: 100%"
+                                    border="0"
+                                  />
+                                </a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                                         </td>
+                                         </tr>
+                                         </table>
+                                      <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- end of two col -->
+
+          <!--Start of one-col -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0; text-align: center">
+                    <!--[if (gte mso 9)|(IE)]>
+                            <table width="100%" style="border-spacing: 0;" role="presentation">
+                            <tr>
+                            <td width="600" valign="top" style="padding: 0;">
+                         <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0; text-align: center"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  style="width: 600px; max-width: 100%"
+                                  src="https://i.postimg.cc/jd5Hkbbs/lowes-more-deals.jpg"
+                                  alt="lowes-more-deals"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                  </tr>
+                </table>
+                  <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0; text-align: center">
+                    <!--[if (gte mso 9)|(IE)]>
+                                <table width="100%" style="border-spacing: 0;" role="presentation">
+                                <tr>
+                                <td width="600" valign="top" style="padding: 0;">
+                             <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0; text-align: center"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  style="width: 600px; max-width: 100%"
+                                  src="https://i.postimg.cc/ZYLHMHvL/lowes-deals-of-the-day.jpg"
+                                  alt="lowes-deals-of-the-day"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                      </tr>
+                    </table>
+                      <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0">
+                    <!--[if (gte mso 9)|(IE)]>
+                                      <table width="100%" style="border-spacing: 0;" role="presentation">
+                                      <tr>
+                                      <td width="600" valign="top" style="padding: 0;">
+                                   <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="
+                              border-spacing: 0;
+                              width: 600px;
+                              max-width: 100%;
+                            "
+                            role="presentation"
+                          >
+                            <tr>
+                              <td style="padding: 0">
+                                <table
+                                  width="100%"
+                                  style="border-spacing: 0"
+                                  role="presentation"
+                                >
+                                  <tr>
+                                    <td
+                                      style="
+                                        text-align: center;
+                                        padding: 10px 0px 8px 0px;
+                                      "
+                                    >
+                                      <a
+                                        href="https://example.com"
+                                        target="_blank"
+                                      >
+                                        <img
+                                          src="https://i.postimg.cc/BnRBKwRJ/lowes-facebook.png"
+                                          width="32px"
+                                          border="0"
+                                          title="facebook"
+                                          alt="facebook"
+                                        />
+                                      </a>
+                                      <a
+                                        href="https://example.com"
+                                        target="_blank"
+                                      >
+                                        <img
+                                          src="https://i.postimg.cc/50bv5cgW/lowes-twitter.png"
+                                          width="32px"
+                                          border="0"
+                                          title="twitter"
+                                          alt="twitter"
+                                        />
+                                      </a>
+                                      <a
+                                        href="https://example.com"
+                                        target="_blank"
+                                      >
+                                        <img
+                                          src="https://i.postimg.cc/HLQX7WQt/lowes-youtube.png"
+                                          width="32px"
+                                          border="0"
+                                          title="youtube"
+                                          alt="youtube"
+                                        />
+                                      </a>
+                                      <a
+                                        href="https://example.com"
+                                        target="_blank"
+                                      >
+                                        <img
+                                          src="https://i.postimg.cc/vm9LLtdf/lowes-instagram.png"
+                                          width="32px"
+                                          border="0"
+                                          title="instagram"
+                                          alt="instagram"
+                                        />
+                                      </a>
+                                      <a
+                                        href="https://example.com"
+                                        target="_blank"
+                                      >
+                                        <img
+                                          src="https://i.postimg.cc/yNq0d3Sd/lowes-pinterest.png"
+                                          width="32px"
+                                          border="0"
+                                          title="pinterest"
+                                          alt="pinterest"
+                                        />
+                                      </a>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                              </td>
+                            </tr>
+                          </table>
+                            <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0; text-align: center">
+                    <!--[if (gte mso 9)|(IE)]>
+                                <table width="100%" style="border-spacing: 0;" role="presentation">
+                                <tr>
+                                <td width="600" valign="top" style="padding: 0;">
+                             <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 10px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0; text-align: center"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  style="width: 600px; max-width: 100%"
+                                  src="https://i.postimg.cc/TY79RP9L/lowes-divider-gray.jpg"
+                                  alt="divider"
+                                />
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td>
+                                <p style="padding: 10px 0px; margin: 0">
+                                  <a
+                                    style="
+                                      color: #012169;
+                                      font-family: 'DIN Next', Arial, Helvetica,
+                                        sans-serif;
+                                      font-size: 14px;
+                                      line-height: 22px;
+                                      font-weight: bold;
+                                      text-decoration: none;
+                                    "
+                                    href="http://example.com"
+                                  >
+                                    FIND A STORE NEAR YOU
+                                  </a>
+                                </p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <img
+                                  style="width: 600px; max-width: 100%"
+                                  src="https://i.postimg.cc/TY79RP9L/lowes-divider-gray.jpg"
+                                  alt="divider"
+                                />
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td>
+                                <p style="padding: 10px 0px; margin: 0">
+                                  <a
+                                    style="
+                                      color: #012169;
+                                      font-family: 'DIN Next', Arial, Helvetica,
+                                        sans-serif;
+                                      font-size: 14px;
+                                      line-height: 22px;
+                                      font-weight: bold;
+                                      text-decoration: none;
+                                    "
+                                    href="http://example.com"
+                                  >
+                                    GET OUR APP
+                                  </a>
+                                </p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                      </tr>
+                    </table>
+                      <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col footer-->
+          <tr>
+            <td style="padding: 20px 0 20px 0; background-color: #f2f2f2">
+              <table
+                class="footer"
+                width="100%"
+                style="border-spacing: 0"
+                role="presentation"
+              >
+                <tr>
+                  <td style="padding: 0; font-size: 0">
+                    <!--[if (gte mso 9)|(IE)]>
+                          <table width="100%" style="border-spacing: 0;" role="presentation">
+                          <tr>
+                          <td width="600" valign="top" style="padding: 0;">
+                       <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        width: 100%;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0; width: 100%"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td
+                                style="
+                                  text-align: center;
+                                  padding: 10px 0px 8px 0px;
+                                "
+                              >
+                                <a
+                                  href="https://example.com"
+                                  target="_blank"
+                                  style="
+                                    text-decoration: none;
+                                    color: #333333;
+                                    font-weight: bold;
+                                    font-style: normal;
+                                    font-size: 12px;
+                                    padding-left: 7px;
+                                    padding-right: 7px;
+                                    border-right: 2px solid #333333;
+                                  "
+                                >
+                                  MANAGE SUBSCRIPTIONS OR UNSUBSCRIBE
+                                </a>
+                                <a
+                                  href="https://example.com"
+                                  target="_blank"
+                                  style="
+                                    text-decoration: none;
+                                    color: #333333;
+                                    font-weight: bold;
+                                    font-style: normal;
+                                    font-size: 12px;
+                                    padding-left: 7px;
+                                    padding-right: 7px;
+                                  "
+                                >
+                                  CONTACT US
+                                </a>
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td>
+                                <p
+                                  style="
+                                    text-align: center;
+                                    font-family: Helvetica, Arial, sans-serif;
+                                    font-size: 12px;
+                                    color: #333333;
+                                    text-decoration: none;
+                                    line-height: 18px;
+                                    font-weight: normal;
+                                    margin: 0;
+                                  "
+                                >
+                                  This email is intended for
+                                  vmzero199617@gmail.com.
+                                  <br />
+                                  Thank you for your business. View our Privacy
+                                  Statement.
+                                  <br />
+                                  Lowe’s Companies, Inc. 1000 Lowe's Blvd.
+                                  Mooresville, NC 28117.
+                                  <br />
+                                  © 2022 Lowe's. Lowe's, and Gable Mansard
+                                  Design are registered trademarks of LF, LLC.
+                                  <br />
+                                </p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                  </td>
+                </tr>
+              </table>
+                <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+        </table>
+        <!-- End of container -->
+
+        <!--[if (gte mso 9)|(IE)]>
+        </td>
+      </tr>
+   </table>
+         <![endif]-->
+      </div>
+      <!-- End of HTML EMAIL -->
+    </center>
+  </body>
+</html>
